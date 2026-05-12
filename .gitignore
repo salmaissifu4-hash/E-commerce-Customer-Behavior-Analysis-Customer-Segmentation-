@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Generated model artifacts (large binaries)
+reports/artifacts/*.joblib
+
+# Generated data files (reproducible via generate_customer_data.py)
+data/customer_segmentation_final.csv
+
+# OS
+.DS_Store
+Thumbs.db
